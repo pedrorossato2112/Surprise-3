@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -10,20 +10,20 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .frame {
-    width: 100%;
-    padding: 20px;
-    border: 10px solid #8B4513; /* Cor da moldura */
+    display: inline-block; /* Permite que a moldura se ajuste ao tamanho da imagem */
+    border: 8px solid #8B4513; /* Cor da moldura */
     background-color: #fff;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra da moldura */
     border-radius: 10px;
 }
 
 .photo {
-    width: 100%;
+    width: 60%; /* Ajuste a largura da imagem aqui */
+    max-width: 350px; /* Limite máximo da largura */
     height: auto;
     border-radius: 5px;
 }
