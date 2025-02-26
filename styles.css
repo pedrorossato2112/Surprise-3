@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.frame {
+    width: 100%;
+    padding: 20px;
+    border: 10px solid #8B4513; /* Cor da moldura */
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.description {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #333;
+}
